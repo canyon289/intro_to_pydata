@@ -1,4 +1,4 @@
-# Rough outline Day 1: Code Craftsmanship and Python Language Introduction
+# Rough Outline Day 1: Code Craftsmanship and Python Language Introduction
 Note: This is the rough outline meant scaffold full tutorial development
 
 ## Section 1: Introductions and Class format
@@ -17,7 +17,7 @@ participating in class and ensure code environments are working
 ### Activities
 #### Instructor Do: Light Introduction (10 minutes)
 * Introduce myself and background
-* Explain why pydata stack has been ueeful for me professionally and personally
+* Explain why pydata stack has been useful for me professionally and personally
 
 #### Students Do: Introductions to each other (10 minutes)
 * Ask students to pair up
@@ -68,7 +68,7 @@ languages like java, or matlab.
 * Show how variables are assigned in python with `=` operator
 * Explain how duck typing in python works using `+` operator
   * Show that adding `2 + 2` returns `4` but `'2' + '2'` return `22`
-  * Show how if pythong can't "figure it out" an exception is raised
+  * Show how if python can't "figure it out" an exception is raised
 * Showcase python builtins, in particular `type, len, str, int, bool`
 
 #### Students Do: Fix the broken examples (10 minutes)
