@@ -1,7 +1,8 @@
 # Rough outline Day 1: Code Craftsmanship and Python Language Introduction
 Note: This is the rough outline meant scaffold full tutorial development
- 
-## Section 1: Introductions and Class format
+
+## Topic 1: Class Start and Introduction
+### Section 1.1: Introductions and Class format
 Purpose of this section is to establish social familiarity with everyone
 participating in class and ensure code environments are working
 
@@ -12,6 +13,11 @@ participating in class and ensure code environments are working
 * Learn specific motivations of why students are in class
 * Run simple code example to be sure everyone has working environment
 * Communicate agenda and set pacing for class
+
+
+### Activities
+#### Instructor Do: Light Introduction (10 minutes)
+
 
 
 ## Section 2: Introduction to Python 
