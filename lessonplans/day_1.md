@@ -53,7 +53,7 @@ languages like java, or matlab.
 * Run a `hello.py` file from disk
 * Secondary purpose is to verify everyone's python installations are working
 
-#### Buffer: (15 Minutes)
+#### Buffer (15 Minutes)
 * Buffer of time in case issues arise in All do that require trouble shooting
 
 ### Section 2.2 Basic Datatypes
@@ -112,6 +112,9 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
   * With dictionaries check keys vs values
 
 #### Instructor Do: Collection practice review (5 minutes)
+
+
+#### Lunch Break (60 minutes) 
 
 ### Section 2.5 Control Flow, Conditionals, and builtins
 

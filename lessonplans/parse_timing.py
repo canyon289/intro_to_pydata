@@ -9,7 +9,7 @@ import pandas as pd
 FILE_NAME = "day_1.md"
 # Named tuples are convenient and friendly way to keep track of things
 
-cols = ["Section", "Activity", "Timing"]
+cols = ["Section", "Activity", "Category", "Minutes"]
 TIMING_ROW_C = namedtuple("timing_row", cols)
 
 REGEX_PATTERN = "\ (.+)\((\d+)"
@@ -35,9 +35,15 @@ def activity_name_and_minutes(line):
 
         # Remove leading and trailing whitepaces
         activity = activity.rstrip()
-        return activity, time
 
-    return None, None
+        for category in ("instructor", "break", "buffer", 
+                "student", "all", "partner"):
+            if category in activity.lower():
+                break
+
+        return activity, time, category.capitalize()
+
+    return None, None, None
 
         
 file_handle = open(FILE_NAME, "r")
@@ -51,11 +57,11 @@ for line in file_lines:
     if possible_section_name: 
         _section_name = possible_section_name
 
-    activity, time = activity_name_and_minutes(line)
+    activity, time, category = activity_name_and_minutes(line)
     if activity:
         assert time, "Activity and time should both appear"
         
-        timing_row = TIMING_ROW_C(_section_name, activity, time)
+        timing_row = TIMING_ROW_C(_section_name, activity, category, time)
         timing_rows.append(timing_row)
         
 # Write csv to disk
