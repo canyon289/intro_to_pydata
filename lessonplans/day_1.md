@@ -88,7 +88,6 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 * Students try various methods on and ints from documentation
 
 #### Instructor Do: Review various methods exercise (5 minutes)
-* Students try various methods on and ints from documentation
 
 ### Section 2.4 Collections
 #### Instructor Do: Introduce Collections and in operator (20 minutes)
@@ -112,12 +111,88 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 * Check what's in a collection
   * With dictionaries check keys vs values
 
-### Section 2.5 Control Flow and Conditionals
-### Section 2.6 Exceptions
-### Section 2.7 Imports
-### Section 2.8 Functions
-### Section 2.9 Objects
+#### Instructor Do: Collection practice review (5 minutes)
+
+### Section 2.5 Control Flow, Conditionals, and builtins
+#### Instructor Do: For and While (20 minutes)
+* Show python syntax for
+  * For
+  * While
+  * Conditionals
+  * How to accept user input with `input()` and `range` function
+    * Mention the idea of generators but don't cover deeply
+
+#### Students Do: Conditionals practice (15 minutes)
+* Programatic counter from user input
+* Continous ask for input until exit command is given
+* Mutate collection, (or don't if its a tuple)
+* Check what's in a collection
+  * With dictionaries check keys vs values
+
+#### Instructor Do: Review Conditionals practice (5 minutes)
+
+### Section 2.6 Functions
+#### Instructor Do: Functions and args (20 minutes)
+* Introduce functions syntax, In particular
+  * Positional args
+  * Keyword args
+  * Return
+
+
+#### Students Do: Write reusable code (20 minutes)
+* Introduce functions syntax, In particular
+  * Positional args
+  * Keyword args
+
+
+#### Review  Do: Write reusable code (10 minutes)
+
+### Section 2.7 Exceptions
+#### Instructor Do: Try Except (20 minutes)
+* Show python syntax for Try Except
+* Provide guidelines on when to catch exception and when to let them raise
+
+#### Students Do: Try Except Practice (10 minutes)
+* Catch errors that we're showing up in previous example
+* Write nicer messages for failures in past exercises
+
+#### Instructor Do: Review Conditionals practice (5 minutes)
+
+### Section 2.8 Imports
+
+#### Instructor Do: Import syntax (10 minutes)
+* Show how python can import built in modules like random
+  * Cover import from and as 
+
+#### Students Do: Import random, generate random numbers (10 minutes)
+* Import the random module and generate random numbers
+* Import math and perform operations on numbers
+
+#### Instructors Do: Review random, generate random numbers (5 minutes)
+
+### Section 2.9 Objects and classes
+
+#### Instructor Do: Object syntax (25 minutes)
+* Show object definition, including methods
+* Demonstrate object inheritance
+
+#### Students Do: Defining cars (20 minutes)
+* Ask students to create a vehicle base class
+* Define methods to describe vehicle
+
+#### Instructors Do: Review classes (10 minutes)
+
 ### Section 2.10 Splitting code apart
-### Section 2.11 File IO
-### Section 2.12 Jupyter Notebooks
+
+#### Instructor Do: Creating own modules (10 minutes)
+* Show object definition, including methods
+* Demonstrate object inheritance
+
+### Section 2.11: Advanced topics
+
+#### Instructor Do: Topics not covered by of interest (10 minutes)
+* Mention advanced topics such as 
+  * Generators
+  * Context Manager
+  * Python packaging
 
