@@ -14,7 +14,7 @@ participating in class and ensure code environments are working
 * Communicate agenda and set pacing for class
 
 
-### Activities
+### Section 1.1 Intros
 #### Instructor Do: Light Introduction (10 minutes)
 * Introduce myself and background
 * Explain why pydata stack has been useful for me professionally and personally
@@ -114,22 +114,26 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 #### Instructor Do: Collection practice review (5 minutes)
 
 ### Section 2.5 Control Flow, Conditionals, and builtins
-#### Instructor Do: For and While (20 minutes)
+
+#### Instructor Do: For, While, Try, Except Conditionals (25 minutes)
 * Show python syntax for
   * For
   * While
   * Conditionals
   * How to accept user input with `input()` and `range` function
     * Mention the idea of generators but don't cover deeply
+* Show python syntax for Try Except
+* Provide guidelines on when to catch exception and when to let them raise
 
-#### Students Do: Conditionals practice (15 minutes)
+#### Students Do: Conditionals practice (20 minutes)
 * Programatic counter from user input
 * Continous ask for input until exit command is given
 * Mutate collection, (or don't if its a tuple)
 * Check what's in a collection
   * With dictionaries check keys vs values
+ 
 
-#### Instructor Do: Review Conditionals practice (5 minutes)
+#### Instructor Do: Review Conditionals practice (10 minutes)
 
 ### Section 2.6 Functions
 #### Instructor Do: Functions and args (20 minutes)
@@ -138,27 +142,14 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
   * Keyword args
   * Return
 
-
 #### Students Do: Write reusable code (20 minutes)
 * Introduce functions syntax, In particular
   * Positional args
   * Keyword args
 
+#### Instructor Do: Write reusable code (10 minutes)
 
-#### Review  Do: Write reusable code (10 minutes)
-
-### Section 2.7 Exceptions
-#### Instructor Do: Try Except (20 minutes)
-* Show python syntax for Try Except
-* Provide guidelines on when to catch exception and when to let them raise
-
-#### Students Do: Try Except Practice (10 minutes)
-* Catch errors that we're showing up in previous example
-* Write nicer messages for failures in past exercises
-
-#### Instructor Do: Review Conditionals practice (5 minutes)
-
-### Section 2.8 Imports
+### Section 2.7 Imports
 
 #### Instructor Do: Import syntax (10 minutes)
 * Show how python can import built in modules like random
@@ -170,7 +161,7 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 
 #### Instructors Do: Review random, generate random numbers (5 minutes)
 
-### Section 2.9 Objects and classes
+### Section 2.8 Objects and classes
 
 #### Instructor Do: Object syntax (25 minutes)
 * Show object definition, including methods
@@ -182,13 +173,13 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 
 #### Instructors Do: Review classes (10 minutes)
 
-### Section 2.10 Splitting code apart
+### Section 2.9 Splitting code apart
 
 #### Instructor Do: Creating own modules (10 minutes)
 * Show object definition, including methods
 * Demonstrate object inheritance
 
-### Section 2.11: Advanced topics
+### Section 2.10: Advanced topics
 
 #### Instructor Do: Topics not covered by of interest (10 minutes)
 * Mention advanced topics such as 
