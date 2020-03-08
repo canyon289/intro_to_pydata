@@ -6,7 +6,7 @@ from collections import namedtuple
 import re
 import pandas as pd
 
-FILE_NAME = "day_2.md"
+FILE_NAME = "day_3.md"
 # Named tuples are convenient and friendly way to keep track of things
 
 cols = ["Section", "Activity", "Category", "Minutes"]
@@ -29,9 +29,12 @@ def activity_name_and_minutes(line):
     """Parse activity name from each line"""
     if "####" in line:
         match = re.findall(REGEX_PATTERN, line)
-        match = match[0]
-       
-        activity, time = match[0], match[1]
+
+        try:
+            match = match[0]
+            activity, time = match[0], match[1]
+        except IndexError:
+            raise Exception(f"Broken Line: {line}")
 
         # Remove leading and trailing whitepaces
         activity = activity.rstrip()
