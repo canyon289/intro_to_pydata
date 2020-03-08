@@ -176,7 +176,8 @@ and plotting a couple of graphs
 #### Instructor Do: Review Dataset Cleaning (10 minutes)
 
 ## Section 3: Conclusion
-### Section 3.1 Wrap up (20 minutes)
+### Section 3.1 Wrap up 
+#### All Do: Class discussion (20 minutes)
 * Ask students how they can apply what they learned to their work
 * Answer any remaining questions
 

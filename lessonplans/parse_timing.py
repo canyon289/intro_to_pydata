@@ -6,7 +6,7 @@ from collections import namedtuple
 import re
 import pandas as pd
 
-FILE_NAME = "day_1.md"
+FILE_NAME = "day_2.md"
 # Named tuples are convenient and friendly way to keep track of things
 
 cols = ["Section", "Activity", "Category", "Minutes"]
