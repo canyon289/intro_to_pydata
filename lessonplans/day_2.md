@@ -22,7 +22,7 @@ and community around the tools
 * Talk through agenda
 
 #### Partners Do: Fizzbuzz Warmup (15 minutes)
-* Write fizbuzz from scratch with a partner
+* Write fizzbuzz from scratch with a partner
   * Exercise ensures students are comfortable with python and have a working
   environment
 
@@ -59,7 +59,7 @@ and plotting a couple of graphs
 
 #### Students Do: Fizzbuzz in notebooks (15 minutes)
 * Have students start a jupyter notebook
-* Have them run their fizbuzz program in the notebook
+* Have them run their fizzbuzz program in the notebook
 * Ask them to add human understandable notes in markdown cells
 * Have them export their results to html
 
@@ -116,7 +116,7 @@ and plotting a couple of graphs
   * [3D plots](https://matplotlib.org/3.1.1/gallery/mplot3d/subplot3d.html)
 
 
-#### Partners do: Plot the previous data in 2D (20 minutes)
+#### Partners Do: Plot the previous data in 2D (20 minutes)
 * Have students revisit previous exercises and plot
   * Linear regression from numpy section
   * Demand histogram bin in second example
@@ -133,7 +133,7 @@ and plotting a couple of graphs
 * Why its so useful in data space
 * Why its one of my most used tools
 
-#### Instructor do: Pandas Basics and Data Selection (15 minutes)
+#### Instructor Do: Pandas Basics and Data Selection (15 minutes)
 * Show manual creation of Pandas Dataframe
 * Indexing and selecting or rows
   * Bracket api, iloc and loc
@@ -142,7 +142,7 @@ and plotting a couple of graphs
 * How to read pandas documentation
 
 
-#### Instructor do: Loading external data (20 minutes)
+#### Instructor Do: Loading external data (20 minutes)
 * Show how to load data from
   * CSV
   * Excel
@@ -150,7 +150,7 @@ and plotting a couple of graphs
   * [HDF5](https://www.neonscience.org/hdf5-intro-python)
 * Show to to save data to disk as well
 
-#### Students do: Loading external data (10 minutes)
+#### Students Do: Loading external data (10 minutes)
 * Load the iris dataset from the internet
 * Write the dataframe to disk in various formats
 

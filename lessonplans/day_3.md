@@ -6,7 +6,7 @@
 * Show various way to profile python code
 
 ### Section 1.1 "Easy Hacks" to profile python code
-#### Instructor Do: Time.time() and timeit (20 minutes)
+#### Instructor Do: Time.time and timeit (20 minutes)
 * Show ways to profile snippets of code through taking start and end times
 * Show more robust way using built in timeit 
 
@@ -14,7 +14,7 @@
 * Use above methods to time numerical operations when performed in python
 * Use numpy to vectorize and improve results
 
-#### Instructor Do: Review fix numerical operation slowdowns
+#### Instructor Do: Review fix numerical operation slowdowns (10 minutes)
 
 ### Section 1.2 Cprofiler
 #### Instructor Do: Introduce cprofiler (15 minutes)
@@ -28,10 +28,10 @@
 ### Objectives
 * Provide high level overview of good practices for python code organization
 
-### Section 2.1
-#### Partner do: Talk about code craftmanship (5 minutes)
+### Section 2.1 Code Craftsmanship
+#### Partner Do: Talk about code craftmanship (5 minutes)
 * Turn to partner and talk about why code organization is important
-* How does it relate to work each persons work, and to their colleages
+* How does it relate to work each persons work, and to their colleagues
 
 #### All Do: Discuss why code craftsmanship is imporant (10 minutes)
 * Go around the room and ask folks what they said in discussions
@@ -42,7 +42,7 @@
   * Importable module
   * Analysis
   * Generic scripting
-* Explain general principles that work well for pythong
+* Explain general principles that work well for python
 
 ## Section 3: Integrating external code in other languages
 ### Objectives 
@@ -50,19 +50,19 @@
 * Note this section is most challenging. Full outline will need some more research,
 Basic pattern of showcase and instruction will stay the same
 
-### Section 3.1
-#### All do: Docker Basics (30 minutes)
+### Section 3.1 Docker
+#### All Do: Docker Basics (30 minutes)
 * Optional section if docker is needed and students need introduction
 
-### Section 3.2
-#### All do: Subprocess module (30 minutes)
+### Section 3.2 Subprocess
+#### All Do: Subprocess module (30 minutes)
 * *Unfinished* 
 
-### Section 3.3
-#### All do: Integrating C code (30 minutes)
+### Section 3.3 Integrating C code
+#### All Do: Integrating C code (30 minutes)
 * *Unfinished* 
 
-### Section 3.4
-#### All do: Integrating Fortran code (30 minutes)
+### Section 3.4 Integrating Fortran code
+#### All Do: Integrating Fortran code (30 minutes)
 * *Unfinished* 
 

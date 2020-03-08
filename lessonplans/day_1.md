@@ -48,7 +48,7 @@ languages like java, or matlab.
 * Show how these same commands can be saved in a file and run
 * Show the most important language feature, how to add comments
 
-#### Students do: Start at terminal and print hello world (5 minutes)
+#### Students Do: Start at terminal and print hello world (5 minutes)
 * Start a terminal and execute `print("Hello World!")` in repl
 * Run a `hello.py` file from disk
 * Secondary purpose is to verify everyone's python installations are working
@@ -130,7 +130,7 @@ mismatch. Ask students to inspect data types and fix to achieve intended result
 
 #### Students Do: Conditionals practice (20 minutes)
 * Programatic counter from user input
-* Continous ask for input until exit command is given
+* Continuous ask for input until exit command is given
 * Mutate collection, (or don't if its a tuple)
 * Check what's in a collection
   * With dictionaries check keys vs values
