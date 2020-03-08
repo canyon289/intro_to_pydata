@@ -142,15 +142,41 @@ and plotting a couple of graphs
 * How to read pandas documentation
 
 
-#### Students do: Basic Pandas (15 minutes)
-  * Loading external data
-  * Indexing
-  * Merging
-  * Groupby 
-  * Multiindex
-  * Plotting
-  * Loading external data
-  * Pivot tables
+#### Instructor do: Loading external data (20 minutes)
+* Show how to load data from
+  * CSV
+  * Excel
+  * Relational Database (we'll use postgres)
+  * [HDF5](https://www.neonscience.org/hdf5-intro-python)
+* Show to to save data to disk as well
 
-Examples:
-  https://www.neonscience.org/hdf5-intro-python
+#### Students do: Loading external data (10 minutes)
+* Load the iris dataset from the internet
+* Write the dataframe to disk in various formats
+
+#### Instructor do: Loading external data (5 minutes)
+
+#### Instructor Do: Groupby (15 minutes)
+* Show group by's functionality using standard functions
+* How to write custom group by functions
+
+#### Students Do: Count and average flowers (10 minutes)
+* Using iris dataset count number and average of attributes in each group
+
+#### Instructor Do: Review groupby (5 minutes)
+
+#### Instructor Do: Advanced dataframe manipulation (20 minutes)
+* Show API for multiindex and pivot tables
+* Show `pd.join` and `pd.merge` functionality
+
+#### Students Do: Clean dataset for analysis and presentation (25 minutes)
+* Give students a couple messy datasets
+* Ask them to either mutate the dataframe for presentation or for analysis
+
+#### Instructor Do: Review Dataset Cleaning (10 minutes)
+
+## Section 3: Conclusion
+### Section 3.1 Wrap up (20 minutes)
+* Ask students how they can apply what they learned to their work
+* Answer any remaining questions
+
