@@ -55,14 +55,22 @@ Basic pattern of showcase and instruction will stay the same
 * Optional section if docker is needed and students need introduction
 
 ### Section 3.2 Subprocess
+Subprocess module allows python to make system calls. This means pythong
+can execute some code, then call to the system to execute external code
+in fortran or c or whatever, and if data needs to be shared it can be 
+shared through the disk or OS.
 #### All Do: Subprocess module (30 minutes)
-* *Unfinished* 
+* Need to scope specific lecture and activities. Still deciding approach
 
 ### Section 3.3 Integrating C code
+Python has a couple of ways of integrating with C code, as does numpy
+and scipy. Need to figure out which approach is most relevant for JPL
 #### All Do: Integrating C code (30 minutes)
 * *Unfinished* 
 
 ### Section 3.4 Integrating Fortran code
+Likely going to teach use of f2py which was used in development of PyMC2.
+Would like to understand JPL use case before adding further details
 #### All Do: Integrating Fortran code (30 minutes)
 * *Unfinished* 
 
